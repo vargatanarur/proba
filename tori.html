@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<title>Középkor – Történelem összefoglaló</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+:root {
+  --bg: #f4f6f8;
+  --card: #ffffff;
+  --primary: #2c3e50;
+  --accent: #c0392b;
+  --soft: #ecf0f1;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  background: var(--bg);
+  color: #333;
+}
+
+header {
+  background: var(--primary);
+  color: #fff;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+/* kártyák */
+.section {
+  background: var(--card);
+  border-radius: 12px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0,0,0,.08);
+}
+
+.section h2 {
+  color: var(--accent);
+  margin-top: 0;
+}
+
+/* összecsukható */
+details {
+  margin-top: 1rem;
+}
+
+summary {
+  font-weight: bold;
+  cursor: pointer;
+  padding: .5rem;
+  background: var(--soft);
+  border-radius: 8px;
+}
+
+/* fogalomkártyák */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.card {
+  background: var(--soft);
+  padding: 1rem;
+  border-radius: 10px;
+  border-left: 6px solid var(--accent);
+}
+
+/* idővonal */
+.timeline {
+  border-left: 4px solid var(--accent);
+  padding-left: 1rem;
+}
+
+.event {
+  margin-bottom: 1rem;
+}
+
+.event span {
+  font-weight: bold;
+  color: var(--accent);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>Középkor</h1>
+  <p>Középiskolai történelem – összefoglaló oldal</p>
+</header>
+
+<div class="container">
+
+  <section class="section">
+    <h2>1. A középkor fogalma és korszakai</h2>
+    <p>
+      A középkor az ókor és az újkor közötti történelmi korszak, 
+      Európában hagyományosan <strong>476-tól 1492-ig</strong> tart.
+    </p>
+
+    <div class="timeline">
+      <div class="event"><span>476</span> – A Nyugatrómai Birodalom bukása</div>
+      <div class="event"><span>1000 körül</span> – Feudalizmus kialakulása</div>
+      <div class="event"><span>1095–1291</span> – Keresztes hadjáratok</div>
+      <div class="event"><span>1347–1352</span> – Fekete halál</div>
+      <div class="event"><span>1492</span> – Amerika felfedezése</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>2. A feudális társadalom</h2>
+    <details>
+      <summary>Társadalmi rétegek</summary>
+      <ul>
+        <li><strong>Papság</strong> – vallási, műveltségi szerep</li>
+        <li><strong>Nemesség</strong> – katonai vezetőréteg</li>
+        <li><strong>Jobbágyság</strong> – termelő réteg</li>
+      </ul>
+    </details>
+
+    <details>
+      <summary>Hűbéri rendszer</summary>
+      <p>
+        A földbirtok (hűbérbirtok) fejében katonai és politikai
+        szolgálat járt. A kapcsolat személyes hűségen alapult.
+      </p>
+    </details>
+  </section>
+
+  <section class="section">
+    <h2>3. Egyház és vallás</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Katolikus egyház</h3>
+        <p>Pápa, püspökök, szerzetesek – Európa legnagyobb intézménye</p>
+      </div>
+      <div class="card">
+        <h3>Kolostorok</h3>
+        <p>Műveltség, könyvmásolás, oktatás központjai</p>
+      </div>
+      <div class="card">
+        <h3>Eretnekmozgalmak</h3>
+        <p>Az egyház tanításától eltérő irányzatok</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>4. Városok és gazdaság</h2>
+    <ul>
+      <li>Mezőgazdasági fejlődés (nehézeke, háromnyomásos gazdálkodás)</li>
+      <li>Kézműipar és céhek</li>
+      <li>Távolsági kereskedelem, vásárok</li>
+    </ul>
+  </section>
+
+  <section class="section">
+    <h2>5. Magyarország a középkorban</h2>
+    <details>
+      <summary>Árpád-kor</summary>
+      <p>
+        Államalapítás (Szent István), vármegyerendszer,
+        keresztény királyság kiépülése.
+      </p>
+    </details>
+    <details>
+      <summary>Anjouk és Hunyadiak</summary>
+      <p>
+        Erős királyi hatalom, gazdasági fellendülés,
+        török elleni harcok (Hunyadi János, Mátyás király).
+      </p>
+    </details>
+  </section>
+
+</div>
+
+<footer>
+  Készült tanulást segítő összefoglalóként – történelem, középkor
+</footer>
+
+</body>
+</html>
